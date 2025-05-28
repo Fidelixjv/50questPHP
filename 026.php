@@ -1,10 +1,9 @@
 <?php
-$entrada = [1,2,3,4,5,0];
-$indice = 0;
-$valor = null;
+$entradas = [5, 12, 7, 3, 0, 8];
+$index = 0;
 
 do {
-    $Valor = $entrada[$indice];
-    echo "Valor: $Valor<br>";
-    $indice++;
+    $valor = $entradas[$index];
+    echo "Valor recebido: $valor\n";
+    $index++;
 } while ($valor != 0);
